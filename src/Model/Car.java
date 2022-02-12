@@ -4,6 +4,7 @@ public class Car {
     private int speed;
     private String name;
     private int weight;
+    private String model;
 
     public int getSpeed() {
         return speed;
@@ -27,5 +28,13 @@ public class Car {
 
     public void setWeight(int weight) {
         this.weight = weight;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
     }
 }
